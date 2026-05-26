@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM SURVEY PEROKOK</title>
+</head>
+<body>
+    <form name="form-perokok">
+        <div class="name">
+            <div class="label-nama">
+                <label for="nama" name="nama-surveyor">Siapa nama anda?</label>
+            </div>
+            <div class="input">
+                <input id="nama" type="text" name="nama-surveyor">
+            </div>
+        </div>
+
+        <div class="umur">
+            <div class="label-nama">
+                <label for="umur" name="umur">Berapa umur anda?</label>
+            </div>
+            <div class="input">
+                <input id="umur" type="text" name="umur" >
+            </div>
+        </div>
+
+        <div class="gender">
+            <div class="label-gender">
+                <label for="gender">Apa jenis kelamin anda?</label>
+            </div>
+            <div class="input">
+                <input id="male" type="radio" name="male">
+                <label for="male" name="male">Laki-laki</label>
+                <input id="female" type="radio" name="female">
+                <label for="male" name="female">Perempuan</label>
+            </div>
+        </div>
+
+        <div class="rokok">
+            <div class="label-rokok">
+                <label for="tanya-rokok">Apakah anda perokok?</label>
+            </div>
+            <div class="input">
+                <input id="ya" type="radio" name="ya">
+                <label for="ya" name="ya">Ya</label>
+                <input id="tidak" type="radio" name="no">
+                <label for="tidak" name="no">Tidak</label>
+            </div>
+        </div>
+
+        <div class="jenis-rokok">
+            <div class="input">
+                <div>
+                    <label>Jika anda Perokok, rokok apa yang anda pernah coba?</label>
+                </div>
+                <div>
+                    <input id="filter" type="checkbox" name="garpit">
+                    <label for="filter" name="garpit">Gudang Garam Filter</label>
+                </div>
+                <div>
+                    <input id="strike" type="checkbox" name="strike">
+                    <label for="filter" name="strike">Lucky Strike</label>
+                </div>
+                <div>
+                    <input id="marlboro" type="checkbox" name="marlboro">
+                    <label for="marlboro" name="marlboro">Marlboro</label>
+                </div>
+                <div>
+                    <input id="Esse" type="checkbox" name="esse">
+                    <label for="filter" name="esse">Esse</label>
+                </div>
+            </div>
+        </div>
+
+        <input type="submit" value="Submit" name="submit">
+        <input type="reset" value="Reset" name="resett">
+    </form>
+    
+</body>
+</html>
