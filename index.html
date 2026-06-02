@@ -4,78 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORM SURVEY PEROKOK</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form name="form-perokok">
-        <div class="name">
+        <div class="header-form">
+            <h1>
+                Form Perokok
+            </h1>
+            <p>
+                Form ini dibuat untuk menentukan orang-orang yang melakukan aktivitas merokok dalam kehidupan sehari hari
+            </p>
+            <p style="color: red;">
+                *Required
+            </p>
+        </div>
+
+        <div class="name-form">
             <div class="label-nama">
                 <label for="nama" name="nama-surveyor">Siapa nama anda?</label>
             </div>
             <div class="input">
-                <input id="nama" type="text" name="nama-surveyor">
+                <input id="nama" type="text" name="nama-surveyor" placeholder="Your Answer">
             </div>
         </div>
 
-        <div class="umur">
+        <div class="umur-form">
             <div class="label-nama">
                 <label for="umur" name="umur">Berapa umur anda?</label>
             </div>
             <div class="input">
-                <input id="umur" type="text" name="umur" >
+                <input id="umur" type="text" name="umur" placeholder="Your Answer" >
             </div>
         </div>
 
-        <div class="gender">
+        <div class="gender-form">
             <div class="label-gender">
                 <label for="gender">Apa jenis kelamin anda?</label>
             </div>
-            <div class="input">
-                <input id="male" type="radio" name="male">
-                <label for="male" name="male">Laki-laki</label>
-                <input id="female" type="radio" name="female">
-                <label for="female" name="female">Perempuan</label>
+            <div class="input-gender">
+                <div class="pilihan">
+                    <input id="male" type="radio" name="male">
+                    <label for="male" name="male">Laki-laki</label>
+                </div>
+                <div class="pilihan">
+                    <input id="female" type="radio" name="female">
+                    <label for="female" name="female">Perempuan</label>
+                </div>
             </div>
         </div>
 
-        <div class="rokok">
+        <div class="rokok-form">
             <div class="label-rokok">
                 <label for="tanya-rokok">Apakah anda perokok?</label>
             </div>
-            <div class="input">
-                <input id="ya" type="radio" name="ya">
-                <label for="ya" name="ya">Ya</label>
-                <input id="tidak" type="radio" name="no">
-                <label for="tidak" name="no">Tidak</label>
+            <div class="input-rokok">
+                <div class="pilihan">
+                    <input id="ya" type="radio" name="ya">
+                    <label for="ya" name="ya">Ya</label>
+                </div>
+                <div class="pilihan">
+                    <input id="tidak" type="radio" name="no">
+                    <label for="tidak" name="no">Tidak</label>
+                </div>
             </div>
         </div>
 
         <div class="jenis-rokok">
-            <div class="input">
                 <div>
                     <label>Jika anda Perokok, rokok apa yang anda pernah coba?</label>
                 </div>
-                <div>
+                <div class="pilihan">
                     <input id="filter" type="checkbox" name="garpit">
                     <label for="filter" name="garpit">Gudang Garam Filter</label>
                 </div>
-                <div>
+                <div class="pilihan">
                     <input id="strike" type="checkbox" name="strike">
                     <label for="strike" name="strike">Lucky Strike</label>
                 </div>
-                <div>
+                <div class="pilihan">
                     <input id="marlboro" type="checkbox" name="marlboro">
                     <label for="marlboro" name="marlboro">Marlboro</label>
                 </div>
-                <div>
+                <div class="pilihan">
                     <input id="esse" type="checkbox" name="esse">
                     <label for="esse" name="esse">Esse</label>
                 </div>
-            </div>
         </div>
 
-        <input type="submit" value="Submit" name="submit">
-        <input type="reset" value="Reset" name="resett">
+        <div class="button">
+            <input type="submit" value="Submit" name="submit">
+            <input type="reset" value="Reset" name="resett">
+        </div>
     </form>
+
+    <footer>
+        <p style="text-align: left;">
+            Never Submit password through Google Forms.
+        </p>
+
+        <p style="text-align: center;  ">
+            The content is neither created not endorsed by Google. <a href="#">Report Abuse &#183;</a> <a href="#">Term of Service &#183;</a> <a href="#">Privacy Policy</a>
+        </p>
+    </footer>
     
+    <a href="#">
+        <button class="write-button">
+            <img src="" alt="">
+        </button>
+    </a>
 </body>
 </html>
