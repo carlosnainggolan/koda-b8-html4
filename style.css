@@ -112,6 +112,14 @@ input[type="text"] {
     justify-content: space-between;
 }
 
+input[type="radio"] {
+    border: 1px solid #673AB7;
+}
+
+input[type="checkbox"] {
+    border: 1px solid #673AB7;
+}
+
 input[type="submit"] {
     background-color: #673AB7;
     border: none;
